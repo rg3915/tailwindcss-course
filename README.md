@@ -13,6 +13,9 @@ npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 ```
 
+Instalação feita com [Tailwind CLI](https://tailwindcss.com/docs/installation).
+
+
 Veja a configuração de [src/input.css](src/input.css) e [tailwind.config.js](tailwind.config.js).
 
 ### Build
