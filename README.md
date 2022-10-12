@@ -26,7 +26,7 @@ Veja a configuração de [src/input.css](src/input.css) e [tailwind.config.js](t
 ### Build
 
 ```
-npx tailwindcss -i ./src/input.css -o ./dist/output.css
+npx tailwindcss -i ./src/input.css -o ./dist/main.css
 ```
 
 ou
