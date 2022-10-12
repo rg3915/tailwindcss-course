@@ -9,14 +9,14 @@
     <link href="./dist/main.css" rel="stylesheet">
 </head>
 
-<body class="bg-gray-50 text-gray-600">
+<body class="text-gray-600 bg-gray-50">
     <!-- header -->
     <div>
-        <div class="container mx-auto px-4 items-center h-24 max-w-5xl flex">
+        <div class="container flex h-24 max-w-5xl mx-auto px-4 items-center">
             <div class="font-black">
                 LOGO
             </div>
-            <ul class="space-x-4 items-center flex ml-auto">
+            <ul class="flex space-x-4 items-center ml-auto">
                 <li>
                     <a href="" class="text-gray-600 text-sm hover:text-gray-800 hover:underline">Como reservar</a>
                 </li>
@@ -35,21 +35,21 @@
     <!-- /header -->
     <!-- banner -->
     <div style="background: url('https://raw.githubusercontent.com/rg3915/curso-gratuito-tailwindcss/aula-23/img/hero-image-1.png'); height: 450px">
-        <div class="container mx-auto px-4 items-center justify-center h-full max-w-5xl flex">
+        <div class="container flex h-full max-w-5xl mx-auto px-4 items-center justify-center">
             <div>
                 <div class="text-center">
-                    <h1 class="mb-1 text-3xl text-gray-200">Onde você quer ir?</h1>
+                    <h1 class="text-3xl text-gray-200 mb-1">Onde você quer ir?</h1>
                     <p class="text-green-100">Escolha o estado e cidade para achar os melhores resorts.</p>
                 </div>
                 <div class="mt-7">
                     <form class="gap-4 grid-cols-2 grid lg:grid-cols-3">
-                        <select class="px-3 py-2 bg-grey-50 border-gray-300 text-gray-500 border rounded">
+                        <select class="text-gray-500 border-gray-300 px-3 py-2 bg-grey-50 border rounded">
                             <option value="">Escolha estado</option>
                         </select>
-                        <select class="px-3 py-2 bg-grey-50 border-gray-300 text-gray-500 border rounded">
+                        <select class="text-gray-500 border-gray-300 px-3 py-2 bg-grey-50 border rounded">
                             <option value="">Escolha cidade</option>
                         </select>
-                        <button class="px-3 py-2 bg-yellow-500 col-span-2 items-center justify-center font-medium text-yellow-900 inline-flex lg:col-span-1 rounded">
+                        <button class="font-medium text-yellow-900 col-span-2 px-3 py-2 items-center justify-center bg-yellow-500 inline-flex lg:col-span-1 rounded">
                             <svg class="h-4 w-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
                             </svg>
@@ -63,18 +63,18 @@
     <!-- /banner -->
     <!-- featured resort -->
     <div>
-        <div class="container mx-auto px-4 py-20 max-w-5xl">
-            <div class="flex-col-reverse flex lg:flex-row">
+        <div class="container max-w-5xl mx-auto px-4 py-20">
+            <div class="flex flex-col-reverse lg:flex-row">
                 <div class="lg:pr-10">
                     <div class="font-medium text-gray-400 text-sm">RESORT EM DESTAQUE</div>
                     <div class="text-2xl">Ecoresort Praia do Forte Bahia</div>
-                    <div class="mt-2 font-medium text-gray-400 text-sm">Hotel qualidade 5 estrelas</div>
-                    <div class="mt-4 font-medium text-gray-400 text-sm">
+                    <div class="font-medium text-gray-400 text-sm mt-2">Hotel qualidade 5 estrelas</div>
+                    <div class="font-medium text-gray-400 text-sm mt-4">
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ea non quasi? Deleniti error illum necessitatibus officia ullam. Dicta harum laborum minima nam nobis perspiciatis quaerat unde. Aspernatur corporis, voluptas.</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ea non quasi? Deleniti error illum necessitatibus officia ullam. Dicta harum laborum minima nam nobis perspiciatis quaerat unde. Aspernatur corporis, voluptas.</p>
                     </div>
                     <div class="mt-4">
-                        <a href="" class="px-3 py-2 bg-yellow-500 items-center font-medium text-yellow-900 inline-flex rounded">
+                        <a href="" class="font-medium text-yellow-900 px-3 py-2 items-center bg-yellow-500 inline-flex rounded">
                             Solicitar reserva
                             <svg class="h-4 w-4 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
@@ -82,7 +82,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="mb-5 flex-shrink-0 lg:mb-0 lg:ml-auto">
+                <div class="flex-shrink-0 mb-5 lg:mb-0 lg:ml-auto">
                     <img src="https://raw.githubusercontent.com/rg3915/curso-gratuito-tailwindcss/aula-23/img/featured-img.png" width="450">
                 </div>
             </div>
@@ -91,32 +91,32 @@
     <!-- /featured resort -->
     <!-- resorts grid -->
     <div>
-        <div class="container mx-auto px-4 max-w-5xl">
-            <h3 class="mb-8 font-semibold text-2xl text-center text-gray-500">Conheça mais resorts</h3>
+        <div class="container max-w-5xl mx-auto px-4">
+            <h3 class="font-semibold text-2xl text-center text-gray-500 mb-8">Conheça mais resorts</h3>
             <div class="space-y-6 md:gap-6 md:grid md:grid-cols-4 md:grid-rows-2 md:space-y-0">
-                <div class="rounded-lg overflow-hidden md:col-span-2 md:row-span-2 relative">
-                    <div class="pb-4 font-bold text-white absolute bottom-0 pl-4 z-20">
+                <div class="overflow-hidden rounded-lg md:col-span-2 md:row-span-2 relative">
+                    <div class="font-bold text-white pb-4 absolute bottom-0 pl-4 z-20">
                         Beach Park Resort
                     </div>
                     <img src="https://raw.githubusercontent.com/rg3915/curso-gratuito-tailwindcss/aula-23/img/image-shadow.png" class="h-20 absolute bottom-0 left-0 right-0 z-10">
                     <img src="https://raw.githubusercontent.com/rg3915/curso-gratuito-tailwindcss/aula-23/img/hotel-1.jpeg" class="h-full w-full object-cover">
                 </div>
-                <div class="rounded-lg overflow-hidden md:col-span-2 md:h-40 relative">
-                    <div class="pb-4 font-bold text-white absolute bottom-0 pl-4 z-20">
+                <div class="overflow-hidden rounded-lg md:col-span-2 md:h-40 relative">
+                    <div class="font-bold text-white pb-4 absolute bottom-0 pl-4 z-20">
                         Salinas do Maragogi Resort
                     </div>
                     <img src="https://raw.githubusercontent.com/rg3915/curso-gratuito-tailwindcss/aula-23/img/image-shadow.png" class="h-20 absolute bottom-0 left-0 right-0 z-10">
                     <img src="https://raw.githubusercontent.com/rg3915/curso-gratuito-tailwindcss/aula-23/img/hotel-2.jpeg" class="h-full w-full object-cover">
                 </div>
-                <div class="rounded-lg overflow-hidden relative">
-                    <div class="pb-4 font-bold text-white absolute bottom-0 pl-4 z-20">
+                <div class="overflow-hidden rounded-lg relative">
+                    <div class="font-bold text-white pb-4 absolute bottom-0 pl-4 z-20">
                         grand Palladium
                     </div>
                     <img src="https://raw.githubusercontent.com/rg3915/curso-gratuito-tailwindcss/aula-23/img/image-shadow.png" class="h-20 absolute bottom-0 left-0 right-0 z-10">
                     <img src="https://raw.githubusercontent.com/rg3915/curso-gratuito-tailwindcss/aula-23/img/hotel-3.jpeg" class="h-full w-full object-cover">
                 </div>
-                <div class="rounded-lg overflow-hidden relative">
-                    <div class="pb-4 font-bold text-white absolute bottom-0 pl-4 z-20">
+                <div class="overflow-hidden rounded-lg relative">
+                    <div class="font-bold text-white pb-4 absolute bottom-0 pl-4 z-20">
                         Arraial d'Ajuda Eco Resort
                     </div>
                     <img src="https://raw.githubusercontent.com/rg3915/curso-gratuito-tailwindcss/aula-23/img/image-shadow.png" class="h-20 absolute bottom-0 left-0 right-0 z-10">
@@ -128,15 +128,15 @@
     <!-- /resorts grid -->
     <!-- form search -->
     <div class="py-20">
-        <div class="container mx-auto px-4 justify-center max-w-5xl flex">
+        <div class="container flex max-w-5xl mx-auto px-4 justify-center">
             <form class="gap-4 grid-cols-2 grid lg:grid-cols-3">
-                <select class="px-3 py-2 bg-grey-50 border-gray-300 text-gray-500 border rounded">
+                <select class="text-gray-500 border-gray-300 px-3 py-2 bg-grey-50 border rounded">
                     <option value="">Escolha estado</option>
                 </select>
-                <select class="px-3 py-2 bg-grey-50 border-gray-300 text-gray-500 border rounded">
+                <select class="text-gray-500 border-gray-300 px-3 py-2 bg-grey-50 border rounded">
                     <option value="">Escolha cidade</option>
                 </select>
-                <button class="px-3 py-2 bg-yellow-500 col-span-2 items-center justify-center font-medium text-yellow-900 inline-flex lg:col-span-1 rounded">
+                <button class="font-medium text-yellow-900 col-span-2 px-3 py-2 items-center justify-center bg-yellow-500 inline-flex lg:col-span-1 rounded">
                     <svg class="h-4 w-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
                     </svg>
@@ -148,11 +148,11 @@
     <!-- /form search -->
     <!-- footer -->
     <div class="border-gray-200 border-t">
-        <div class="container mx-auto p-4 items-center justify-between max-w-5xl flex">
+        <div class="container flex max-w-5xl mx-auto p-4 items-center justify-between">
             <div class="font-black text-gray-400">
                 LOGO
             </div>
-            <div class="space-x-3 items-center flex">
+            <div class="flex space-x-3 items-center">
                 <a href=""><img src="https://raw.githubusercontent.com/rg3915/curso-gratuito-tailwindcss/aula-23/img/icon-facebook.png"></a>
                 <a href=""><img src="https://raw.githubusercontent.com/rg3915/curso-gratuito-tailwindcss/aula-23/img/icon-instagram.png"></a>
             </div>
