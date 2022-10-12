@@ -9,11 +9,11 @@
     <link href="./dist/main.css" rel="stylesheet">
 </head>
 
-<body class="bg-gray-50 ">
+<body class="bg-gray-50 text-gray-600">
     <!-- header -->
     <div>
         <div class="mx-auto px-4 items-center h-24 container flex">
-            <div class="font-black ">
+            <div class="font-black">
                 LOGO
             </div>
             <ul class="space-x-4 items-center flex ml-auto">
@@ -37,12 +37,12 @@
     <div style="background: url('https://raw.githubusercontent.com/rg3915/curso-gratuito-tailwindcss/aula-20/img/hero-image-1.png'); height: 450px">
         <div class="mx-auto px-4 items-center justify-center h-full container flex">
             <div>
-                <div class="text-center ">
-                    <h1 class="mb-1 text-3xl text-gray-200 ">Onde você quer ir?</h1>
-                    <p class="text-green-100 ">Escolha o estado e cidade para achar os melhores resorts.</p>
+                <div class="text-center">
+                    <h1 class="mb-1 text-3xl text-gray-200">Onde você quer ir?</h1>
+                    <p class="text-green-100">Escolha o estado e cidade para achar os melhores resorts.</p>
                 </div>
-                <div class="mt-7 ">
-                    <form class="space-x-4 ">
+                <div class="mt-7">
+                    <form class="space-x-4">
                         <select class="px-3 py-2 bg-grey-50 border-gray-300 text-gray-500 border rounded">
                             <option value="">Escolha estado</option>
                         </select>
@@ -61,6 +61,32 @@
         </div>
     </div>
     <!-- /banner -->
+    <!-- featured resort -->
+    <div class="mx-auto px-4 py-10 container">
+        <div class="flex">
+            <div class="pr-10">
+                <div class="font-medium text-gray-400 text-sm">RESORT EM DESTAQUE</div>
+                <div class="text-2xl">Ecoresort Praia do Forte Bahia</div>
+                <div class="mt-2 font-medium text-gray-400 text-sm">Hotel qualidade 5 estrelas</div>
+                <div class="mt-4 font-medium text-gray-400 text-sm">
+                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ea non quasi? Deleniti error illum necessitatibus officia ullam. Dicta harum laborum minima nam nobis perspiciatis quaerat unde. Aspernatur corporis, voluptas.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ea non quasi? Deleniti error illum necessitatibus officia ullam. Dicta harum laborum minima nam nobis perspiciatis quaerat unde. Aspernatur corporis, voluptas.</p>
+                </div>
+                <div class="mt-4">
+                    <a href="" class="px-3 py-2 bg-yellow-500 items-center font-medium text-yellow-900 inline-flex rounded">
+                        Solicitar reserva
+                        <svg class="h-4 w-4 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="flex-shrink-0 ml-auto">
+                <img src="https://raw.githubusercontent.com/rg3915/curso-gratuito-tailwindcss/aula-22/img/featured-img.png" width="450">
+            </div>
+        </div>
+    </div>
+    <!-- /featured resort -->
 </body>
 
 </html>
