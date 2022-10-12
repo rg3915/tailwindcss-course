@@ -29,6 +29,12 @@ Veja a configuração de [src/input.css](src/input.css) e [tailwind.config.js](t
 npx tailwindcss -i ./src/input.css -o ./dist/output.css
 ```
 
+ou
+
+```
+npm run build
+```
+
 ## Rodando a app
 
 Usei [live-server](https://www.npmjs.com/package/live-server).
