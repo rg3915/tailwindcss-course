@@ -49,6 +49,26 @@ Run
 live-server
 ```
 
+## Considerar no CSS
+
+* display
+* flexbox
+* grid
+* box-alignment
+* spacing
+* sizing
+* typography
+* background
+* border
+* effect
+* table
+* transition
+* transform
+* interactivity
+* svg
+* accessibility
+
+
 ## Links
 
 https://www.creative-tim.com/learning-lab/tailwind-starter-kit/documentation/quick-start
@@ -56,4 +76,8 @@ https://www.creative-tim.com/learning-lab/tailwind-starter-kit/documentation/qui
 https://vueschool.io/articles/vuejs-tutorials/composing-layouts-with-vue-router/
 
 https://heroicons.dev/
+
+https://tailwind-elements.com/
+
+https://tailwindcomponents.com/
 
