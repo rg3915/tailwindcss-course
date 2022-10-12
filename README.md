@@ -55,3 +55,5 @@ https://www.creative-tim.com/learning-lab/tailwind-starter-kit/documentation/qui
 
 https://vueschool.io/articles/vuejs-tutorials/composing-layouts-with-vue-router/
 
+https://heroicons.dev/
+
